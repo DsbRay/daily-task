@@ -1,0 +1,38 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  /* theme */
+  --screamin-reen: #51fe6b;
+  --reef: #d4ff9d;
+  --bunker: #0e1116;
+  --wood-smoke: #14171b;
+  --shark: #2e3034;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--wood-smoke);
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  color: var(--reef);
+}
