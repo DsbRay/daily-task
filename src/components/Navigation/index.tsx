@@ -20,6 +20,10 @@ const NAV_LINKS = [
     title: 'Fitness',
     url: '/fitness',
   },
+  {
+    title: 'Budget',
+    url: '/budget',
+  },
 ]
 
 interface NavProps {

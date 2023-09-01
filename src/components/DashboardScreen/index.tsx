@@ -8,8 +8,6 @@ const DashboardScreen: React.FC<{}> = () => {
     </Container>
   )
 }
-const Container = styled.div`
-  height: calc(100vh - 50px);
-`
+const Container = styled.div``
 
 export default DashboardScreen

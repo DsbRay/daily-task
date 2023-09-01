@@ -22,14 +22,18 @@ const Layout: React.FC<PageProps> = ({ children }) => {
       <Navigation handleOpenModal={handleOpenModal} />
       <Main>
         <Sidebar />
-        {children}
+        <div className='children'>{children}</div>
       </Main>
     </>
   )
 }
 
 const Main = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  .children {
+    padding: 10px;
+  }
 `
 
 export default Layout

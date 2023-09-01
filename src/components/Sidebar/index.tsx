@@ -28,6 +28,7 @@ const Toggle = styled.div`
 const SideContainer = styled.div`
   background-color: var(--bunker);
   width: 50px;
+  min-height: calc(100vh - 50px);
   transition: width 0.25s ease-in-out;
   &.extended {
     width: 200px;
